@@ -1,0 +1,68 @@
+
+input.checkboxRow{
+    width: 25px;
+    height:25px;
+    margin-left:1%;
+}
+
+.rowDefinition{
+    display:flex;
+    margin-left:1%;
+    align-items: center;
+    align-content: center;
+    
+    height: 3.8rem;
+    /* margin-top: 0.5rem; */
+}
+
+.selected{
+    background-color:#DDDAD9;
+}
+
+.boxRowNameContent{
+    width:25rem;
+    height: 3.8rem;
+    margin-left:10.9rem;
+    position: relative;
+}
+
+.boxRowEmailContent{
+    width:25rem;
+    height: 3.8rem;
+    margin-left:0.2rem;
+}
+
+.boxRowRoleContent{
+    width:25rem;
+    height: 3.8rem;
+    margin-left:0.5rem;
+}
+
+.boxRowActionsContent{
+    width:25rem;
+    height: 3.8rem;
+    margin-right:-11rem
+}
+
+.boxRowCheckboxContent{
+    height: 3.8rem;
+}
+
+.lineRow{
+   
+    background-color:lightslategrey;
+    width: 104rem;
+    height:0.03rem;
+    margin-left:1rem;
+}
+
+.savebutton{
+  width:20%;
+  height: 10%;
+  margin-left: -2rem;
+}
+.cancelbutton{
+    width:20%;
+    height: 10%;
+    margin-left: 1.5rem;
+}

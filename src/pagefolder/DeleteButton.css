@@ -1,0 +1,20 @@
+.deleteButton{
+    border-radius: 30px;
+    background-color: #ed3993;
+    margin-left: 2%;
+    width:10rem;
+    font-size: 0.9rem;
+  }
+  
+  .deleteButton:hover{
+    cursor:pointer;
+  }
+  .deleteText{
+      color: aliceblue;
+  }
+
+  @media screen and (max-width: 700px){
+    .deleteButton{
+        margin-top: 10%;
+    }
+  }

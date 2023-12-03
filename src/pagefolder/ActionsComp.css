@@ -1,0 +1,22 @@
+.ActionsButtons{
+    display: flex;
+    flex-direction: row;
+}
+
+.editicon{
+    margin-right:2rem;
+    margin-left: -1rem;
+}
+
+.editicon:hover{
+    cursor:pointer;
+
+}
+
+.deleteicon{
+    cursor:pointer;
+}
+
+.savebutton{
+ margin-right: 1rem;
+}

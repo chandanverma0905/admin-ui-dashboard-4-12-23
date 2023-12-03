@@ -1,0 +1,14 @@
+
+.searchbar{
+    width:69%;
+    margin: 2%;
+    padding: 0.5%;
+}
+
+@media screen and (min-width: 0px) and (max-width: 700px){
+    .searchbar{
+        width:100%;
+        margin: 2%;
+        padding: 0.5%;
+    }
+}

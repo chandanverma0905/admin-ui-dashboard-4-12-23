@@ -1,0 +1,70 @@
+.noresults{
+    margin:2% 0 18% 5% ;  
+}
+
+p.noresults{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.dashboardtable{
+    /* width:100%; */
+    margin:1% 10% 3% 1.5%;
+    border-collapse: collapse;
+
+}
+
+.tableHeader{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px;
+}
+
+.checkboxHeader{
+    /* margin-right: 9px; */
+
+}
+
+input.checkboxHeader{
+    width: 25px;
+    height:25px;
+}
+
+.textHeader{
+    font-weight: bold;
+    font-size: 20px;
+    /* display: flex;
+    justify-content: space-between; */
+} 
+
+
+.boxHead{
+    width:25rem;
+    height: 3rem;
+}
+
+.boxHeadCheckbox{
+    height: 3rem;
+}
+
+.lineHead{
+    display:flex;
+    background-color: black;
+    width: 104rem;
+    height:0.1rem;
+    margin-left:1rem;
+}
+
+@media screen and (max-width:700px){
+    .dashboardtable{
+        /* margin:1% 10% 3% 1.5%; */
+        
+        width: 80%;
+        overflow-x: auto;
+        margin: auto;
+    }
+
+    /* .pageTableveiw{
+        width:50%;
+    } */
+}
